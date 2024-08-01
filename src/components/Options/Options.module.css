@@ -1,0 +1,11 @@
+/* src/components/Options/Options.module.css */
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1em;
+}
