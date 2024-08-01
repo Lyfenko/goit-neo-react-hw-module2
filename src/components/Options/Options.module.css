@@ -2,10 +2,41 @@
 .options {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
+  margin-bottom: 2em;
 }
 
 button {
-  padding: 10px;
+  padding: 12px 24px;
   font-size: 1em;
+  color: #ffffff;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #ffcc00;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #e6b800;
+  transform: scale(0.95);
+}
+
+.resetButton {
+  background-color: #ff4444;
+}
+
+.resetButton:hover {
+  background-color: #ff0000;
+}
+
+.resetButton:active {
+  background-color: #cc0000;
 }

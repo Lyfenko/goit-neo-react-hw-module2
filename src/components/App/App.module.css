@@ -2,4 +2,29 @@
 .app {
   text-align: center;
   padding: 20px;
+  background-color: #ffffff; /* White background for a clean look */
+  min-height: 100vh;
+  font-family: 'Lobster', cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  color: #333; /* Dark text color for readability */
+}
+
+h1 {
+  font-size: 3em;
+  color: #0056b3; /* Deep blue inspired by Ukrainian flag */
+  margin-bottom: 0.5em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 2em;
+  max-width: 600px; /* Limiting width for better readability */
 }

@@ -2,4 +2,6 @@
 .notification {
   margin-top: 20px;
   font-style: italic;
+  color: #b22222;
+  font-size: 1.2em;
 }
