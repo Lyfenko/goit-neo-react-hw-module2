@@ -2,7 +2,7 @@
 .app {
   text-align: center;
   padding: 20px;
-  background-color: #ffffff; /* White background for a clean look */
+  background-color: #ffffff;
   min-height: 100vh;
   font-family: 'Lobster', cursive, sans-serif;
   display: flex;
@@ -12,12 +12,12 @@
 }
 
 .content {
-  color: #333; /* Dark text color for readability */
+  color: #333;
 }
 
 h1 {
   font-size: 3em;
-  color: #0056b3; /* Deep blue inspired by Ukrainian flag */
+  color: #0056b3;
   margin-bottom: 0.5em;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
@@ -26,5 +26,5 @@ p {
   font-size: 1.2em;
   color: #555;
   margin-bottom: 2em;
-  max-width: 600px; /* Limiting width for better readability */
+  max-width: 600px;
 }
